@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="4dp"
         android:text="@string/password_lama_muhamadcasdi"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -23,12 +23,11 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cdPassLama"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
         app:cardBackgroundColor="@color/colorAccent"
         app:cardCornerRadius="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="16dp">
+        app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -41,7 +40,6 @@
                 android:layout_margin="8dp"
                 android:background="@android:color/transparent"
                 android:hint="@string/password_lama"
-                android:hintTextColor="#5D4037"
                 android:inputType="textPassword"
                 android:textColor="@color/white"
                 android:textColorHint="@color/white"
@@ -50,8 +48,7 @@
                 app:layout_constraintEnd_toStartOf="@+id/showPassLama"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                tools:ignore="TouchTargetSizeCheck,TextContrastCheck,TextContrastCheck" />
+                app:layout_constraintTop_toTopOf="parent"/>
 
             <ImageView
                 android:id="@+id/showPassLama"
@@ -71,12 +68,11 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cdPassBaru"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
         app:cardBackgroundColor="@color/colorAccent"
         app:cardCornerRadius="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/cdPassLama"
-        tools:layout_editor_absoluteX="16dp">
+        app:layout_constraintTop_toBottomOf="@+id/cdPassLama">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -117,12 +113,11 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cdKonPass"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="50dp"
         android:layout_margin="16dp"
         app:cardBackgroundColor="@color/colorAccent"
         app:cardCornerRadius="10dp"
-        app:layout_constraintTop_toBottomOf="@+id/cdPassBaru"
-        tools:layout_editor_absoluteX="16dp">
+        app:layout_constraintTop_toBottomOf="@+id/cdPassBaru">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
@@ -281,7 +276,6 @@
             android:text="@string/syimbol"
             android:textColor="@color/colorAccent" />
     </LinearLayout>
-
 
     <Button
         android:id="@+id/ubahPassword"

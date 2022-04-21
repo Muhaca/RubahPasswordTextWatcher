@@ -40,9 +40,13 @@ public class MainActivity extends AppCompatActivity {
         btnRubahPassword.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                if (valUbahPass())
+                    Toast.makeText(getApplicationContext(), "Password Berhasil Disimpan.!!", Toast.LENGTH_SHORT).show();
+                //MENGAMBIL VARIABLE valPassChange UNTUK MEMVALIDASI PERUBAHAN PASSWORD
             }
         });
+        inputChange();
+        //MENGAMBIL VARIABLE inputChange UNTUK MEMBACA PASSWORD BARU PADA SAAT APLIKASI DIGUNAKAN
     }
 
     private boolean valUbahPass(){

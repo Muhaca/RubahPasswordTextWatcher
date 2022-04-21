@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">Rubah Password TextWatcher</string>
+    <string name="syimbol">Syimbol</string>
+    <string name="password_lama_muhamadcasdi">Password Lama = muhamadcasdi</string>
+    <string name="rubah_password">Rubah Password</string>
+    <string name="angka">Angka</string>
+    <string name="huruf_kecil">Huruf Kecil</string>
+    <string name="huruf_besar">Huruf Besar</string>
+    <string name="konfirmasi_password">Konfirmasi Password</string>
+    <string name="password_baru">Password Baru</string>
+    <string name="password_lama">Password Lama</string>
+</resources>
